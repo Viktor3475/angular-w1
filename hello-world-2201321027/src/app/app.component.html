@@ -1,0 +1,14 @@
+<h1 (click)="toggleDisplayInfo()">Информация за Вас</h1>
+<p *ngIf="visibleInfo">{{contentInfo}}</p>
+
+<h1 (click)="toggleDisplayHobby()">Хобита и интереси</h1>
+<p *ngIf="visibleHobby">{{contentHobby}}</p>
+
+<h1 (click)="toggleDisplayLink()">Линк към материал на любим content creator, които ви е вдъхновил</h1>
+<p *ngIf="visibleLink">{{contentLink}}</p>
+
+<h1 (click)="toggleDisplayChannelInfo()">Информация за вашия канал</h1>
+<p *ngIf="visibleChannelInfo">{{contentChannelInfo}}</p>
+
+<h1 (click)="toggleDisplayServicePrice()">Примерно остойностяване</h1>
+<p *ngIf="visibleServicePrice">{{contentServicePrice}}</p>
