@@ -5,7 +5,7 @@
 <p *ngIf="visibleHobby">{{contentHobby}}</p>
 
 <h1 (click)="toggleDisplayLink()">Линк към материал на любим content creator, които ви е вдъхновил</h1>
-<p *ngIf="visibleLink">{{contentLink}}</p>
+<a href="https://www.youtube.com/c/webdevsimplified"><p *ngIf="visibleLink">{{contentLink}}</p></a>
 
 <h1 (click)="toggleDisplayChannelInfo()">Информация за вашия канал</h1>
 <p *ngIf="visibleChannelInfo">{{contentChannelInfo}}</p>
