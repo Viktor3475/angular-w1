@@ -17,7 +17,7 @@ export class AppComponent {
   public visibleChannelInfo: Boolean = false;
   public visibleServicePrice: Boolean = false;
 
-  public contentInfo: String = 'Аз съм Виктор и съм от Пловдив.';
+  public contentInfo: String = 'Аз съм Борко и съм млад врабец.';
   public contentHobby: String = 'Тенис на маса и футбол.';
   public contentLink: String = 'WebDevSimplified';
   public contentChannelInfo: String = 'Моят канал е мястото, където мога да ви запозная с най-интересните и малко познати факти.';
